@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
-from app.quicksort import quicksort_ascending, quicksort_descending
-from app.binary_search import binary_search
+from quicksort import quicksort_ascending, quicksort_descending
+from binary_search import binary_search
 
 app = Flask(__name__)
 
